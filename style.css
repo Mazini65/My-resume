@@ -26,6 +26,71 @@ body {
 }
 .education {
 }
+
+/* sidebar section */
 .sidebar_section {
   background-color: #1e2939;
+  width: 370px;
+  padding: 40px 0;
+}
+.contacts_section {
+  margin: 50px 0 0 40px;
+}
+.tech_skills {
+  margin: 50px 0 0 40px;
+}
+.soft_skills {
+  margin: 45px 0 0 40px;
+}
+.sidebar_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+/* Contacts section */
+.contacts_section_type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 5px;
+}
+.contacts_section_link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #565e6a;
+}
+/* Tech skills */
+.tech_skills_list {
+  padding: 0 0 0 17px;
+}
+/* Soft skills */
+.soft_skills_list {
+  padding: 0 0 0 17px;
+}
+.tech_skills_item {
+  color: #fb6d3a;
+}
+.soft_skills_item {
+  color: #fb6d3a;
+}
+.tech_skills_item_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.soft_skills_item_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
 }
