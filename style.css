@@ -9,20 +9,82 @@ body {
   background-color: #fff;
   margin: 40px auto;
 }
+/* Main contant */
+.main_contant {
+  padding: 100px 90px;
+}
+.main_contant_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
+}
+/* About me section */
+.about_me_section {
+  margin-bottom: 40px;
+}
 .about_me_profession {
   font-size: 14px;
-  font-weight: 700;
+  color: #000;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+.about_me_name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 25px;
   color: #000;
 }
-.main_contant {
-  display: flex;
-  flex-direction: column;
+.about_me_description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
-.about_me_section {
-}
+/* My projects section */
 .my_projects_section {
+  margin-bottom: 50px;
 }
-.my_work_experience {
+.my_projects_list {
+  padding: 0 0 0 17px;
+}
+.my_projects_item {
+  color: #000;
+  font-weight: bold;
+}
+.my_projects_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #696969;
+  margin-left: 5px;
+}
+.my_projects_link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #696969;
+}
+.my_projects_bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+/* My work experience */
+.my_work_experience_company {
+  color: #fb6d3a;
 }
 .education {
 }
