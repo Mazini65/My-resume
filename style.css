@@ -8,8 +8,9 @@ body {
   width: 1200px;
   background-color: #fff;
   margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-/* Main contant */
+/* Main contant section */
 .main_contant {
   padding: 100px 90px;
 }
@@ -82,14 +83,86 @@ body {
   line-height: 24px;
   color: #000;
 }
-/* My work experience */
+/* My work experience section*/
+.my_work_experience_company_primary {
+  margin-bottom: 15px;
+}
+.my_work_experience_position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 10px;
+}
 .my_work_experience_company {
   color: #fb6d3a;
 }
-.education {
+.my_work_experience_team {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
 }
-
-/* sidebar section */
+.my_work_experience_divider {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000;
+}
+.my_work_experience_duties {
+  padding-left: 10px;
+}
+.my_work_experience_duty {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* Education section */
+.education_header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-top: 45px;
+}
+.education_university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-top: 10px;
+}
+.education_faculty {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin: 10px 0 10px 0;
+}
+.education_team {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+.education_divider {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000;
+}
+/* Sidebar section */
 .sidebar_section {
   background-color: #1e2939;
   width: 370px;
